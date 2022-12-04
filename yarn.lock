@@ -97,11 +97,6 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@cycle/base@4.2":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@cycle/base/-/base-4.2.0.tgz#ed6043c3c92ed2442d0e4b9ae603aec05e960f0b"
-  integrity sha1-7WBDw8ku0kQtDkua5gOuwF6WDws=
-
 "@cycle/dom@^22.3.0":
   version "22.3.0"
   resolved "https://registry.yarnpkg.com/@cycle/dom/-/dom-22.3.0.tgz#d103071b6135305ead46579d8ab340be5ffede70"
@@ -129,19 +124,6 @@
   dependencies:
     quicktask "1.1.0"
     xstream "10.x || 11.x"
-
-"@cycle/rx-adapter@3.x.x":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@cycle/rx-adapter/-/rx-adapter-3.1.0.tgz#ccb92a1971c78b948b1e1a9010e54890958a0d22"
-  integrity sha1-zLkqGXHHi5SLHhqQEOVIkJWKDSI=
-
-"@cycle/rx-run@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@cycle/rx-run/-/rx-run-7.2.0.tgz#0f55575c8622775792c4467eb9ea98bf0f5a2870"
-  integrity sha1-D1VXXIYid1eSxEZ+ueqYvw9aKHA=
-  dependencies:
-    "@cycle/base" "4.2"
-    "@cycle/rx-adapter" "3.x.x"
 
 "@cycle/rxjs-run@^10.2.0":
   version "10.2.0"
@@ -1890,9 +1872,9 @@ decamelize@^1.1.1, decamelize@^1.1.2, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 dedent@^0.7.0:
   version "0.7.0"
